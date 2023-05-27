@@ -13,17 +13,17 @@ if (num<1)
 }
 else if (num<6)
 {
-    System.Console.WriteLine("Нет");
+    System.Console.WriteLine("Выходной: Нет");
 }
 else if (num<8)
 {
-    System.Console.WriteLine("Да");
+    System.Console.WriteLine("Выходной: Да");
 }
 else
     System.Console.WriteLine("Вы ввели неправильный номер дня недели.");
 
 
-// switch (num)
+// switch (num)   //Первый вариант решения.
 //     {
 //         case 1:
 //             System.Console.WriteLine("Нет");
